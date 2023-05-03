@@ -10,8 +10,23 @@ body {
     grid-template-rows: auto 1fr;
 }
 
-#top-bar {
-    padding: 12px;
-    font-size: x-large;
-    box-shadow: 0 0 40px #777;
+top-bar {
+    background-color: aqua;
+}
+
+pfp {
+    background-color: beige;
+}
+
+username {
+    background-color: blue;
+}
+
+#link-list {
+    background-color: blueviolet;
+}
+
+#link-list > div {
+    background-color: rgb(43, 226, 104);
+    margin: 2px;
 }
